@@ -1,8 +1,9 @@
 {
   "name": "@makiavellipac/portfolio-components",
-  "private": true,
-  "version": "0.0.1-alpha.1",
+  "private": false,
+  "version": "0.0.1-alpha.2",
   "type": "module",
+  "repository": "https://github.com/makiavellipac/portfolio-components",
   "scripts": {
     "dev": "vite",
     "build": "npm run clean && tsc && npm run copy-files -m",
@@ -53,6 +54,6 @@
     "vite": "^4.4.5"
   },
   "publishConfig": {
-    "registry": "https://npm.pkg.github.com/"
+    "registry": "https://npm.pkg.github.com/makiavellipac"
   }
 }
