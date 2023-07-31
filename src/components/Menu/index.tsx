@@ -66,7 +66,13 @@ export const Menu = ({menu,color,fontColor}:props) => {
             <ul>
                 {
                     newMenu.map((val,index)=>(
-                        <LiCustom color={color} active={val.active} fontColor={fontColor} onClick={()=>handleCLick(index)}>{val.value}</LiCustom>
+                        <LiCustom 
+                            color={color} 
+                            active={val.active} 
+                            fontColor={fontColor} 
+                            onClick={()=>handleCLick(index)}>
+                                {val.value}
+                        </LiCustom>
                     ))
                 }
             </ul>
