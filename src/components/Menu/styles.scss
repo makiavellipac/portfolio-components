@@ -1,0 +1,11 @@
+.menu-header {
+    & nav ul{
+        display: flex;
+        list-style: none;
+        & li {
+            margin: 30px;
+            position: relative;
+            font-family: 'Poppins';
+        }
+    }
+}
